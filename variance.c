@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-double variance(int n, double x[]);
+double variance(double x[], int n);
 
 int main(void) {
 
@@ -8,7 +8,7 @@ int main(void) {
 	int number = 10;
 
 
-	double answer = variance(number, array);
+	double answer = variance(array, number);
 
 	printf("Variance is: %f\n", answer);
 
